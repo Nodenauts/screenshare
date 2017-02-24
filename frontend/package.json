@@ -1,0 +1,14 @@
+{
+  "name": "screenshare-frontend",
+  "version": "0.0.1",
+  "description": "A front-end part of screenshare application!",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pug": "^2.0.0-beta11"
+  }
+}

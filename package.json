@@ -1,0 +1,55 @@
+{
+  "name": "screenshare",
+  "version": "0.0.1",
+  "description": "Small, modular tool which make your users able to share their viewports! Let them cooperate while browsing or maybe use it for better support service?",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nodenauts/screenshare.git"
+  },
+  "keywords": [
+    "screen",
+    "screenshare",
+    "share",
+    "node",
+    "node.js",
+    "javascript",
+    "es6",
+    "es5",
+    "ecma",
+    "ecmascript",
+    "babel",
+    "socket",
+    "socket.io",
+    "open-source",
+    "MIT",
+    "html",
+    "css",
+    "sass",
+    "koa",
+    "koa.js"
+  ],
+  "author": "Nodenauts",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nodenauts/screenshare/issues"
+  },
+  "homepage": "https://github.com/Nodenauts/screenshare#readme",
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-plugin-transform-async-to-generator": "^6.22.0",
+    "babel-preset-es2015": "^6.22.0",
+    "css-loader": "^0.26.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^2.2.1"
+  },
+  "dependencies": {
+    "koa": "^2.0.0-alpha.8",
+    "lodash": "^4.17.4",
+    "socket.io": "^1.7.3"
+  }
+}
