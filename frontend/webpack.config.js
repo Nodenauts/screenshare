@@ -23,5 +23,5 @@ module.exports = {
       js,
     ]
   },
-  devtool: (isDev) ? 'eval-sourcemap' : 'nosources-source-map',
+  devtool: (isDev) ? 'eval-sourcemap' : 'cheap-module-source-map',
 };
