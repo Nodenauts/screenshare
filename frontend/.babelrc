@@ -1,0 +1,9 @@
+﻿{
+  "plugins": ["transform-async-to-generator"],
+  "ignore": [
+    "node_modules/*"
+  ],
+  "presets": [
+    "es2015"
+  ]
+}
