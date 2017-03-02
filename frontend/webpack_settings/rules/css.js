@@ -1,11 +1,19 @@
-﻿module.exports = {
+﻿const isDev = (process.env.isDev) ? process.env.isDev : true;
+
+module.exports = {
   test: /\.css$/,
   use: [
     {
-      loader: 'css-loader'
+      loader: 'css-loader',
+      options: {
+        sourceMap: isDev,
+      },
     },
     {
-      loader: 'style-loader'
+      loader: 'style-loader',
+      options: {
+        sourceMap: isDev,
+      },
     }
   ]
 };

@@ -22,5 +22,6 @@ module.exports = {
       sass,
       js,
     ]
-  }
+  },
+  devtool: (isDev) ? 'eval-sourcemap' : 'nosources-source-map',
 };

@@ -1,5 +1,8 @@
 const path = require('path');
 const webpack = require('webpack');
+const js = require('./webpack_settings/rules/js');
+
+const isDev = (process.env.isDev) ? process.env.isDev : true;
 
 module.exports = {
   context: path.resolve(__dirname),
@@ -12,12 +15,8 @@ module.exports = {
   },
   module: {
     rules: [
-      {
-        test: /\.js$/,
-        use: [{
-          loader: 'babel-loader',
-        }]
-      }
+      js
     ]
-  }
+  },
+  devtool: (isDev) ? 'eval-sourcemap' : 'source-map',
 };
