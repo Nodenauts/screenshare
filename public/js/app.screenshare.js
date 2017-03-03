@@ -71,9 +71,7 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-
-console.log('swag');
+eval("\n\nconsole.log('swag');//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9mcm9udGVuZC9hcHAuanM/Zjg5ZSJdLCJuYW1lcyI6WyJjb25zb2xlIiwibG9nIl0sIm1hcHBpbmdzIjoiOztBQUFBQSxRQUFRQyxHQUFSLENBQVksTUFBWiIsImZpbGUiOiIwLmpzIiwic291cmNlc0NvbnRlbnQiOlsiY29uc29sZS5sb2coJ3N3YWcnKTtcblxuXG4vLyBXRUJQQUNLIEZPT1RFUiAvL1xuLy8gLi9mcm9udGVuZC9hcHAuanMiXSwic291cmNlUm9vdCI6IiJ9");
 
 /***/ })
 /******/ ]);
