@@ -1,0 +1,4 @@
+﻿node_modules/
+app.bundle.js
+public/js/*
+public/site/*
